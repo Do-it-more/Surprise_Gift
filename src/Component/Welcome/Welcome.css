@@ -1,0 +1,215 @@
+/* General Styling */
+html, body {
+    overflow-anchor: none;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffe4f0, #dbeafe);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    color: #333;
+  }
+  
+  /* Heading Styling */
+  h1, h2 {
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(rgba(255, 105, 180, 0.6), rgba(255, 182, 193, 0.6)), 
+                url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') center/cover no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f6f5f8;
+    padding: 20px 20px;
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+  }
+  
+  /* Heading Animation */
+  .hero h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff1493;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff1493;
+    }
+    to {
+      text-shadow: 0 0 20px #ff69b4, 0 0 30px #ff1493;
+    }
+  }
+  
+  /* Interactive Button */
+  .hero button {
+    background-color: #ff4da6;
+    border: none;
+    padding: 14px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .hero button:hover {
+    background-color: #ff1493;
+    transform: scale(1.1);
+  }
+  
+  /* Ripple Effect */
+  button {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  button:active::after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: rgba(255,255,255,0.3);
+    border-radius: 50%;
+    animation: ripple 0.6s ease-out;
+  }
+  
+  @keyframes ripple {
+    from {
+      transform: scale(0);
+      opacity: 1;
+    }
+    to {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
+  
+  /* Floating Hearts */
+  .heart {
+    width: 20px;
+    height: 20px;
+    background: url('https://cdn-icons-png.flaticon.com/512/833/833472.png') no-repeat center/contain;
+    position: fixed;
+    bottom: -50px;
+    animation: floatUp linear infinite;
+    z-index: 999;
+  }
+  
+  @keyframes floatUp {
+    0% {
+      transform: scale(0.8);
+      opacity: 0.5;
+    }
+    50% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100vh) scale(1.2);
+      opacity: 0;
+    }
+  }
+  
+  
+  /* Profile Section */
+  .profile-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.6);
+    animation: bounceIn 1s ease-in-out;
+  }
+  
+  .birthday-text {
+    font-size: 1.5rem;
+    color: #ff1493;
+    font-weight: bold;
+    margin-top: 10px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  
+  /* Animations */
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
+    transform: translateY(30px);
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .message-container p {
+    font-size: 1.5rem; 
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+    padding: 0px 10px;
+  }
+  
+  .gift-button {
+    background: linear-gradient(135deg, #ff66cc, #ff99cc);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(255, 105, 180, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gift-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(255, 105, 180, 0.5);
+  }
+  
+  .gift-section {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .video-container{
+    padding: 10px;
+  }
