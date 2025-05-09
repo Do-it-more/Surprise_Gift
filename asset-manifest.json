@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Surprise_Gift/static/css/main.c46d72c0.css",
+    "main.js": "/Surprise_Gift/static/js/main.f479cc78.js",
+    "static/js/453.830350d2.chunk.js": "/Surprise_Gift/static/js/453.830350d2.chunk.js",
+    "static/media/happy-birthday-254480.mp3": "/Surprise_Gift/static/media/happy-birthday-254480.2aaaff618253e82b9f32.mp3",
+    "static/media/Happy_Birthday_Status.mp4": "/Surprise_Gift/static/media/Happy_Birthday_Status.ed160ee58edbc46ab2a8.mp4",
+    "static/media/Profile 1.png": "/Surprise_Gift/static/media/Profile 1.4e6660f53a6972b11db0.png",
+    "static/media/Profile_2.png": "/Surprise_Gift/static/media/Profile_2.ef5f123608eed9b100b3.png",
+    "static/media/Profile_8.jpeg": "/Surprise_Gift/static/media/Profile_8.dfb61a7cee379ec36aaf.jpeg",
+    "static/media/Profile_7.jpeg": "/Surprise_Gift/static/media/Profile_7.2f22154bcf47ab16e41e.jpeg",
+    "static/media/Profile_9.jpeg": "/Surprise_Gift/static/media/Profile_9.a5f1e343c716dad65072.jpeg",
+    "static/media/Profile_6.jpeg": "/Surprise_Gift/static/media/Profile_6.701c2b9b4d8af42368d7.jpeg",
+    "static/media/Profile_3.jpeg": "/Surprise_Gift/static/media/Profile_3.1dcf150b96dfc7a5fd1d.jpeg",
+    "static/media/Profile_4.jpeg": "/Surprise_Gift/static/media/Profile_4.12d8e22a14ddca1cbf31.jpeg",
+    "index.html": "/Surprise_Gift/index.html",
+    "main.c46d72c0.css.map": "/Surprise_Gift/static/css/main.c46d72c0.css.map",
+    "main.f479cc78.js.map": "/Surprise_Gift/static/js/main.f479cc78.js.map",
+    "453.830350d2.chunk.js.map": "/Surprise_Gift/static/js/453.830350d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c46d72c0.css",
+    "static/js/main.f479cc78.js"
+  ]
+}
